@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.main_container::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+.main_conteiner {
+    width: 1280px;
+    margin: auto;
+    background: #dbdbdb;
+    padding: 20px;
+}
+.header_content {
+    text-align: right;
+}
+.header_content a img {
+    width: 25px;
+    border-radius: 50%;
+    margin: 0px 0px -7px;
+}
+body {
+    background: rgb(241, 240, 240);
+}
+.header_content a {
+    text-decoration: none;
+    color: saddlebrown;
+    display: inline-block;
+    padding: 8px;
+    font-size: 20px;
+}
+.img {
+    width: 252px;
+    margin: auto;
+}
+.input_tag {
+    text-align: center;
+}
+.text_input input {
+    font-size: 30px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    width: 700px;
+}
+.img {
+    width: 252px;
+    margin: auto;
+}
+.input_tag {
+    text-align: center;
+}
+.text_input input {
+    font-size: 30px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    width: 700px;
+    outline: none;
+}
+.input_content button {
+    color: red;
+    font-size: 25px;
+    padding: 12px 6px;
+    width: 220px;
+    background: lemonchiffon;
+    display: inline-block;
+    margin: 30px 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.input_content button:hover {
+    background: black;
+    color: aqua;
+}
+.input_bac {
+   font-family: sans-serif;
+   font-size: 20px;
+   padding: 15px;
+   margin-bottom: 100px;
+}
+.country h3 {
+    font-size: 22px;
+}
+.country h3 {
+    font-size: 24px;
+    background: rgb(153, 153, 153);
+    padding: 10px 10px;
+}
+.about a {
+    text-decoration: none;
+    color: #e9e7e7;
+    font-weight: 400;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 4px 15px;
+    font-size: 19px;
+}
+.about {
+    padding: 15px;
+    background: #666464;
+}
+.about::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+footer .main_conteiner:last-child {
+    padding: 0px;
+}
+.about a:hover {
+    text-decoration: underline;
+}
+.ehasan {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
